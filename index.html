@@ -1,4 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM - manipulation</title>
+  </head>
+  <body>
+    <!-- part 1 -->
+    <h1>To Do List</h1>
+
+    <form action="#" id="new-task-form">
+      <label for="task-input"> Task: </label>
+      <input type="text" name="task" id="task-input" />
+
+      <label for="owner-input">Owner:</label>
+      <input type="text" name="owner" id="owner-input" />
+      <button class="btn-submit">Submit</button>
+    </form>
+
+    <div>
+      <ul id="tasks-list"></ul>
+    </div>
+
+    <!-- part 2 -->
+    <div>
+      <iframe
+        class="three-minions"
+        src="https://giphy.com/embed/MOWPkhRAUbR7i"
+        width="480"
+        height="217"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+      ></iframe>
+      </p>
+    </div>
+    <button id="update-button">Update gif</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
@@ -7,6 +49,17 @@
   </head>
 
   <body>
+    <form id="myForm">
+      <input id="number" type="number" placeholder="Enter a age">
+      <input id="name" type="text" placeholder="Enter a name">
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="output"></ul>
+    <div id="counter">
+      <div>$<span>0</span></div>
+      <button id="increment" >Add</button>
+      <button id="decrement" >Substract</button>
+    </div>
     <h1 id="title1">Primary title</h1>
     <h2 id="title2">Secondary title</h2>
 
@@ -18,13 +71,12 @@
 
     <h5 class="subtitle">Oh, subtitle I am!</h5>
     <div class="myInputs"> 
-         <input type="number" min="0"  placeholder="Price" />
+         <input class="conchita"type="number" min="0"  placeholder="Price" />
          <input type="text" placeholder="Name" />
     </div>
     <section class="products">
       <h2 class="title2" id="products">Products</h2>
     </section>
-
-    <!-- load JS file last when DOM already loaded so you can access and manipulate with the DOM elements -->
+    <script src="./script.js"></script>
   </body>
-</html>
+</html> -->
